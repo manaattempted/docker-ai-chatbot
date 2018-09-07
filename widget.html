@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    !function(win,doc){"use strict";
+        var script_loader=()=>{
+            try {
+                var head=doc.head||doc.getElementsByTagName("head")[0],
+                        script=doc.createElement("script");
+                        script.setAttribute("type","text/javascript"),
+                        script.setAttribute("src",win.iky_base_url+"assets/widget/iky_widget.js"),head.appendChild(script)} catch(e){}};
+                win.chat_context={"username":"John"},
+                win.iky_base_url="http://bot1.chat12345.com:8088/",
+                script_loader()}(window,document); </script>
+</body>
+</html>

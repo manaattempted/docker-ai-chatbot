@@ -23,7 +23,9 @@ services:
     ports:
        - "27017:27017"
     volumes:
-      - mongodbdata:/data
+      - /home/x3dev/web/bot1.chat12345.com/db:/data 
+      - /home/x3dev/web/bot1.chat12345.com/db/configdb:/data/configdb 
+      - /home/x3dev/web/bot1.chat12345.com/db/db:/data/db
 
 volumes:
   mongodbdata:
