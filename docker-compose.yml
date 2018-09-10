@@ -12,7 +12,7 @@ services:
     container_name: iky_gateway
     image: manaattempted/ai-botchat-framework_iky_gateway:firsttry
     ports:
-        - "8080:80"
+        - "8088:80"
     depends_on:
       - iky_backend
 
